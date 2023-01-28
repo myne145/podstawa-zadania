@@ -13,3 +13,25 @@ body {
     padding-top: 3%;
     width: 110%;
 }
+
+#registerTxt {
+    padding-left: 40%;
+}
+
+#registerForm {
+    padding-top: 5%;
+    padding-left: 30%;
+    padding-bottom: 10%;
+    border-style: dashed;
+}
+
+#username {
+    background-color: #3c3f41;
+    border-radius: 5px;
+    border-style: solid;
+}
+#password {
+    background-color: #3c3f41;
+    border-radius: 5px;
+    border-style: solid;
+}
