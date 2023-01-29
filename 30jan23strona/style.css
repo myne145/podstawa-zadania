@@ -7,7 +7,7 @@ body {
 }
 
 #upperButtons {
-    background-color: aliceblue;
+    
 
     
     padding-top: 3%;
@@ -25,6 +25,7 @@ body {
     border-style: dashed;
 }
 
+
 #username {
     background-color: #3c3f41;
     border-radius: 5px;
@@ -34,4 +35,23 @@ body {
     background-color: #3c3f41;
     border-radius: 5px;
     border-style: solid;
+}
+
+#registerBtn {
+    background-color: #3c3f41;
+    width: 120px;
+    height: 30px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+#loginForm {
+    padding-top: 5%;
+    padding-left: 30%;
+    padding-bottom: 10%;
+    border-style: dashed;
+}
+
+#loginText {
+    padding-left: 40%;
 }
