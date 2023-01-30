@@ -7,7 +7,7 @@ body {
 }
 
 #upperButtons {
-    width: 110%;
+    width: 100%;
 }
 
 #registerTxt {
@@ -56,10 +56,18 @@ body {
     border-style: dashed;
 }
 
-#fabula {
-  
+#threadText {
+    padding-left: 1%;
 }
 
-#article {
-    
+#screenshots {
+    padding-left: 1%;
+}
+
+#writeTome {
+    background-color: #3c3f41;
+    border-radius: 5px;
+    border-style: solid;
+    height: 300px;
+    width: 400px;
 }

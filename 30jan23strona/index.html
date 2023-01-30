@@ -19,65 +19,72 @@
     11. Formularz komunikacji z userem (np. ankieta dotyczaca produktu)
     12. Faromularz logowania - DONE-->    <body>
         <div id="upperButtons">
-            
-            <h1>Forum gier komputerowych</h1><a href="login.html">Zaloguj się</a>
+            <a href="login.html">Zaloguj się</a>
             <span style="opacity:0;">abcdefg</span> 
             <a id='register' href="register.html">Zarejestruj się</a>
+            <h1>Forum gier komputerowych</h1>
+            
         </div>
-            <div id="article">
-                <h2>Mario - Ta gra jest niesamowita!!!</h2>
+        <div id ="threadText">
+            <h2>Mario Java Edition - Premiera</h2>
+            <p id="addedText" style="font-size: 14px;">Dodano przez: Antoni Kuczyński 30.01.2023</p>
+        </div>
+            <div id="article">        
                 <br>
                 <ul>
-                    <li id="fabula"><span id="fabula"">Fabuła gry:</span></li>
+                    <li id="fabula"><span id="fabula"">Fabuła gry:<p>W tej nietypowej grze wcielamy się w rolę hydraulika o imieniu mario, oraz jego brata Luigiego.
+                        Ich zadaniem jest pokonanie jak największej ilości Goomb, oraz zdobycie jak największej liczby monet. Wygrywamy gdy zdobędziemy 100 monet.</p>
+                    </span></li>
+                    <li>Mechaniki gry <p>W grze mamy dostęp do wielu ulepszeń postaci, które kupujemy poprzez zbieranie monet na planszy. Do wyboru mamy 6 opcji które urozmaicają rozgrywkę, takich jak: </p>
+                        <table id="skillTable">
+                            <tr>
+                                <th>Umiejętność</th>           
+                                <th>Opis</th>
+                            </tr>
+                            <tr>
+                                <th>Laser w dół</th>  
+                                <th>Dodaje naszej postaci laser, którym możemy niszczyć przeszkody</th>                      
+                            </tr>
+                            <tr>
+                                <th>Tryb RTX</th>  
+                                <th>Poprawia grafikę gry</th>                     
+                            </tr>
+                            <tr>
+                                <th>Luigi zamiast mario</th>                       
+                                <th>Zamiana postaci na Luigiego</th>                       
+                            </tr>
+                            <tr>
+                                <th>Niewidzialność</th>                       
+                                <th>Daje naszej postaci tymczasową niewidzialność</th>                       
+                            </tr>
+                            <tr>
+                                <th>Młot +1 zasięg</th>                       
+                                <th>Umiejętnośc niszczenia przeszkód w promieniu 3</th>                       
+                            </tr>
+                            <tr>
+                                <th>Laser w każdą stronę</th>                       
+                                <th>Laser może być skierowany w każdą stronę, nie tylko w dół</th>                       
+                            </tr>      
+                          </table>
+                          
+                    </li>
                 </ul>
-                <p>Ponadczasowa gra w końcu doczekała się swojej premiery! W tej nietypowej grze wcielamy się w rolę hydraulika o imieniu mario, oraz jego brata Luigiego.
-                    Ich zadaniem jest pokonanie jak największej ilości Goomb, oraz zdobycie jak największej liczby monet. Wszystko to żeby przejść na lepszy poziom grafiki komputerowej i ocalić księżniczkę w trybie RTX!!!</p>
-                <br>
-                <ul>
-                    <li>Mechaniki gry</li>
-                </ul>
-                <p>W grze mamy dostęp do wielu ulepszeń postaci, które kupujemy poprzez zbieranie monet na planszy. Do wyboru mamy 6 opcji które urozmaicają rozgrywkę, takich jak: </p>
-                <table id="skillTable">
-                    <tr>
-                        <th>Umiejętność</th>           
-                        <th>Opis</th>
-                    </tr>
-                    <tr>
-                        <th>Laser w dół</th>  
-                        <th>Dodaje naszej postaci laser, którym możemy niszczyć przeszkody</th>                      
-                    </tr>
-                    <tr>
-                        <th>Tryb RTX</th>  
-                        <th>Poprawia grafikę gry</th>                     
-                    </tr>
-                    <tr>
-                        <th>Luigi zamiast mario</th>                       
-                        <th>Zamiana postaci na Luigiego</th>                       
-                    </tr>
-                    <tr>
-                        <th>Niewidzialność</th>                       
-                        <th>Daje naszej postaci tymczasową niewidzialność</th>                       
-                    </tr>
-                    <tr>
-                        <th>Młot +1 zasięg</th>                       
-                        <th>Umiejętnośc niszczenia przeszkód w promieniu 3</th>                       
-                    </tr>
-                    <tr>
-                        <th>Laser w każdą stronę</th>                       
-                        <th>Laser może być skierowany w każdą stronę, nie tylko w dół</th>                       
-                    </tr>      
-                  </table>
-                  <br>
-                  <ul>
-                    <li>Screenshoty z gry</li>
-                </ul>
-                  <img src="mario1.png" width="500">
-                  <img src="mario3.png" width="500">
-                  <br>
-                  <img src="mario2.png" width="500">
-                  <img src="mario4.png" width="500">
+                
             </div>
-        
+            <div id="screenshots">
+                <h2>Screenshoty z gry:</h2>   
+                <img src="mario1.png" width="400">
+                <img src="mario3.png" width="400">
+                <br>
+                <img src="mario2.png" width="400">
+                <img src="mario4.png" width="400">
+            </div>
+            <div id="contact">
+                <h2>Napisz do mnie:</h2>
+                <textarea id="writeTome"></textarea>
+                <br>
+                <button id="username">Wyślij</button>
+            </div>
 
     </body>
 </html>
