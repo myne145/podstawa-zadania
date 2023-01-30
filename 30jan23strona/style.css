@@ -1,65 +1,19 @@
-#upperButtons {
-    width: 100%;
+#body {
+
+}
+#header {
+    border-bottom: 1px solid;
 }
 
-#registerTxt {
-    padding-left: 40%;
+#title {
+    display: inline-block;
 }
-
-#registerForm {
-    padding-top: 5%;
-    padding-left: 30%;
-    padding-bottom: 10%;
-    border-style: dashed;
-}
-
-
-#username {
+#loginButton {
+    display: inline-block;
     background-color: #3c3f41;
-    border-radius: 5px;
-    border-style: solid;
-}
-#password {
-    background-color: #3c3f41;
-    border-radius: 5px;
-    border-style: solid;
-}
-
-#registerBtn {
-    background-color: #3c3f41;
-    width: 120px;
-    height: 30px;
-    border-style: solid;
-    border-radius: 5px;
-}
-
-#loginForm {
-    padding-top: 5%;
-    padding-left: 30%;
-    padding-bottom: 10%;
-    border-style: dashed;
-}
-
-#loginText {
-    padding-left: 40%;
-}
-
-#skillTable {
-    border-style: dashed;
-}
-
-#threadText {
-    padding-left: 1%;
-}
-
-#screenshots {
-    padding-left: 1%;
-}
-
-#writeTome {
-    background-color: #3c3f41;
-    border-radius: 5px;
-    border-style: solid;
-    height: 300px;
-    width: 400px;
+    top: 1px;
+    position: relative;
+    margin-top: 0;
+    cursor: pointer;
+    height: 60px;
 }
