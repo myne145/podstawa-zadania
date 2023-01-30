@@ -1,5 +1,5 @@
 body {
-    background-color: #3c3f41;
+    
 }
 
 #register {
@@ -7,10 +7,6 @@ body {
 }
 
 #upperButtons {
-    
-
-    
-    padding-top: 3%;
     width: 110%;
 }
 
@@ -54,4 +50,12 @@ body {
 
 #loginText {
     padding-left: 40%;
+}
+
+#skillTable {
+    border-style: dashed;
+}
+
+#fabula {
+  
 }
