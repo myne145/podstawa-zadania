@@ -54,7 +54,7 @@ body, html {
     background: rgb(248,52,95);
     background: linear-gradient(139deg, rgba(248,52,95,1) 0%, rgba(35,96,180,1) 100%);
     width: 100%;
-    height: 100%;
+    height: 94%;
     border-style: none;
     position: absolute;
 }
@@ -101,13 +101,18 @@ body, html {
 }
 
 #signInButton {
-    border-color: #74b48a;
+    border-color: #34ff77;
     background: #181916;
     border-radius: 25px;
     width: 35%;
     height: 8%;
     vertical-align: bottom;
     margin-left: 34%;
+    cursor: pointer;
+}
+
+#signInButton:hover {
+    background: #2a2a26;
 }
 
 #loginActions {
@@ -115,6 +120,6 @@ body, html {
 }
 
 #forgotPassword, #noAccountregister {
-    color: #4e5051;
+    color: #a4a3a3;
 }
 
