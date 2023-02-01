@@ -3,6 +3,10 @@
 
 <html>
     <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200&display=swap" rel="stylesheet">
+
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
@@ -11,8 +15,20 @@
         <button id="loginButton" onclick="location.href='login.html'"> Zaloguj się</button>
         <button id="registerBtn"> Zarejestruj się</button>
     </div>
-    <div id="main">
-
+    <div id="loginBody">
+        <h1>Test</h1>
+        <div id="loginForm">
+            <h1 id="loginText">Zaloguj się:</h1>
+            <input type="text" id="loginUsername" name="loginUsername" placeholder="Użytkownik">
+            <input type="password" id="loginPassword" name="loginPassword" placeholder="Hasło">
+            <br>
+            <br>
+            <button id="signInButton">Zaloguj Się</button>
+            <div id="loginActions">
+                <p id="forgotPassword">Zapomniałeś hasła?</p>
+                <p id="noAccountregister">Nie masz konta? Zarejestruj się!</p>
+            </div>
+        </div>
     </div>
 
     </body>
