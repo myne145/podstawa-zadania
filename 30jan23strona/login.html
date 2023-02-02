@@ -1,21 +1,37 @@
 <!DOCTYPE html>
+<meta charset="utf-8">
 
 <html>
     <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200&display=swap" rel="stylesheet">
+
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1 id="loginText">Zaloguj się</h1>
+    <div id="header">
+        <h3 id="title">Strona</h3>
+        <button id="loginButton" onclick="location.href='login.html'"> Zaloguj się</button>
+        <button id="registerBtn"> Zarejestruj się</button>
+        <button id="contactMeButton">Napisz do mnie</button>
+    </div>
+    <div id="loginBody">
         <div id="loginForm">
-            <label for="user"><b>Użytkownik</b></label>
-            <input id="username" type="text" placeholder="" name="uname" required>
+            <h1 id="loginText">Zaloguj się:</h1>
+            <input type="text" id="loginUsername" name="loginUsername" placeholder="Użytkownik">
+            <input type="password" id="loginPassword" name="loginPassword" placeholder="Hasło">
             <br>
             <br>
-            <label for="password"><b>Hasło</b></label>
-            <span style="opacity:0;">abcd..</span> 
-            <input id="password" type="password" placeholder="" name="uname" required>
-            <br><br>
-            <button id="registerBtn">Zaloguj się</button>
+            <br>
+            <br>
+            <button id="signInButton">Zaloguj Się</button>
+            <div id="loginActions">
+                <p id="forgotPassword">Zapomniałeś hasła?</p>
+                <p id="noAccountregister">Nie masz konta? Zarejestruj się!</p>
+            </div>
         </div>
+    </div>
+
     </body>
 </html>
