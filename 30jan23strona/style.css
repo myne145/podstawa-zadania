@@ -1,8 +1,9 @@
 body, html {
     margin: 0;
     padding: 0;
-    background: rgb(248,52,95);
-    background: linear-gradient(139deg, rgba(248,52,95,1) 0%, rgba(35,96,180,1) 150%);
+    background: #1a1c1d;
+    /*background: rgb(248,52,95);*/
+    /*background: linear-gradient(139deg, rgba(248,52,95,1) 0%, rgba(35,96,180,1) 150%);*/
 }
 #header {
     text-align: center;
@@ -34,11 +35,11 @@ body, html {
     position: absolute;
     width: 90%;
     height: 95%;
-    border-style: none;
+    border: 1px solid white;
     margin-left: 5%;
     margin-top: 5%;
-    border-radius: 10px;
-    background-color: #181818;
+    border-radius: 5px;
+    background-color: #181a1b;
     opacity: 85%;
 }
 
@@ -141,6 +142,21 @@ body, html {
 }
 
 #articleTitle {
-    text-align: center;
+    /*text-align: center;*/
     color: white;
+}
+
+#artTitle, #releaseDate {
+    display: inline-block;
+    margin-left: 2%;
+}
+
+#releaseDate {
+    font-size: 14px;
+    color: gray;
+}
+
+#articleText {
+    color: white;
+    margin-left: 2%;
 }
