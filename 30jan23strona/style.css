@@ -1,7 +1,7 @@
 body, html {
     margin: 0;
     padding: 0;
-    background: #181a1b;
+    background: #1e2122;
     /*background: rgb(248,52,95);*/
     /*background: linear-gradient(139deg, rgba(248,52,95,1) 0%, rgba(35,96,180,1) 150%);*/
 }
@@ -33,14 +33,14 @@ body, html {
 
 #article {
     position: absolute;
-    width: 90%;
+    width: 70%;
     height: 95%;
-    border: 1px solid white;
-    margin-left: 5%;
-    margin-top: 5%;
-    border-radius: 5px;
+    margin-left: 15%;
+    margin-top: 1%;
+    border-radius: 2px;
     background-color: #181a1b;
-    opacity: 85%;
+    font-family: 'Roboto', sans-serif;
+    /*opacity: 85%;*/
 }
 
 #main {
@@ -145,6 +145,8 @@ body, html {
     /*text-align: center;*/
     color: white;
     margin-left: 25%;
+    font-weight: bolder;
+    font-size: 28px;
 
 }
 
