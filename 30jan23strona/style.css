@@ -160,3 +160,13 @@ body, html {
     color: white;
     margin-left: 2%;
 }
+
+#cell {
+    border: solid 1px white;
+    color: white;
+    border-radius: 5px;
+}
+
+#tags {
+    color: white;
+}
