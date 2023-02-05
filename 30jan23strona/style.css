@@ -2,13 +2,14 @@ body, html {
     margin: 0;
     padding: 0;
     background: #1e2122;
+    font-family: 'Roboto', sans-serif;
     /*background: rgb(248,52,95);*/
     /*background: linear-gradient(139deg, rgba(248,52,95,1) 0%, rgba(35,96,180,1) 150%);*/
 }
 #header {
     text-align: center;
     background-color: #181818;
-    opacity: 85%;
+    /*opacity: 85%;*/
 }
 
 #title {
@@ -34,7 +35,7 @@ body, html {
 #article {
     position: absolute;
     width: 70%;
-    height: 95%;
+    height: 150%;
     margin-left: 15%;
     margin-top: 1%;
     border-radius: 2px;
@@ -83,10 +84,10 @@ body, html {
     width: 25%;
     height: 60%;
     border-radius: 10px;
-    opacity: 85%;
+    /*opacity: 85%;*/
 }
 #loginText {
-    font-family: 'Oswald', cursive;
+    font-family: 'Roboto', sans-serif;
     padding-top: 5%;
     padding-left: 30%;
     color: white;
@@ -188,4 +189,37 @@ body, html {
 
 #listprime {
     background-color: #181a1b;
+}
+
+
+#registerEmail {
+    text-align: center;
+    margin-top: 5%;
+    width: 50%;
+    height: 8%;
+    margin-left: 25%;
+    border-radius: 25px;
+    border-color: #1f61b6;
+    border-style: solid;
+    background: #181916;
+    outline: none;
+}
+
+#registerUser, #registerPassword, #registerPassword2 {
+    text-align: center;
+    width: 50%;
+    height: 8%;
+    margin-top: 5%;
+    margin-left: 25%;
+    border-radius: 25px;
+    border-color: #1f61b6;
+    border-style: solid;
+    background: #181916;
+    outline: none;
+}
+
+#policyInfo {
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
 }

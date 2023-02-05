@@ -2,21 +2,37 @@
 <meta charset="utf-8">
 
 <html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h1 id="registerTxt">Zarejestruj się</h1>
-        <div id="registerForm">
-            <label for="user"><b>Użytkownik</b></label>
-            <input id="username" type="text" placeholder="" name="uname" required>
-            <br>
-            <br>
-            <label for="password"><b>Hasło</b></label>
-            <span style="opacity:0;">abcd..</span> 
-            <input id="password" type="password" placeholder="" name="uname" required>
-            <br><br>
-            <button id="registerBtn">Zarejestruj się</button>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css' data-noprefix>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="header">
+    <h3 id="title">Strona</h3>
+    <button id="loginButton" onclick="location.href='login.html'"> Zaloguj się</button>
+    <button id="registerBtn" onclick="location.href='register.html'"> Zarejestruj się </button>
+    <button id="contactMeButton" onclick="location.href='contactme.html'">Napisz do mnie</button>
+</div>
+<div id="loginBody">
+    <div id="loginForm">
+        <h1 id="loginText">Zarejestruj się:</h1>
+        <input type="text" id="registerEmail" name="loginUsername" placeholder="Adres Email">
+        <input type="text" id="registerUser" name="loginUsername" placeholder="Nazwa Użytkownika">
+        <input type="password" id="registerPassword" name="loginPassword" placeholder="Hasło">
+        <input type="password" id="registerPassword2" name="loginPassword" placeholder="Powtórz hasło">
+        <br>
+        <br>
+        <br>
+        <br>
+        <button id="signInButton" onclick="location.href='index.html'">Zaloguj Się</button>
+        <div id="loginActions">
+            <p id="policyInfo">Rejestrując się akceptujesz naszą politykę prywatności.</p>
         </div>
-    </body>
+    </div>
+</div>
+
+</body>
 </html>
