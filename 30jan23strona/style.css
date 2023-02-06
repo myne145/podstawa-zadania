@@ -223,3 +223,20 @@ body, html {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
+
+#contactMessage {
+    background-color: #181a1b;
+    width: 40%;
+}
+
+#writeToMe {
+    position: absolute;
+    width: 70%;
+    height: 150%;
+    margin-left: 15%;
+    margin-top: 1%;
+    border-radius: 2px;
+    background-color: #181a1b;
+    font-family: 'Roboto', sans-serif;
+    /*opacity: 85%;*/
+}
