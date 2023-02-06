@@ -15,7 +15,7 @@ body, html {
 #title {
     display: inline-block;
 }
-#loginButton, #registerBtn, #contactMeButton {
+#loginButton, #registerBtn, #contactMeButton, #mainPageButton {
     display: inline-block;
     background-color: #181818;
     border: none;
@@ -26,7 +26,7 @@ body, html {
     cursor: pointer;
     height: 60px;
 }
-#loginButton:hover, #registerBtn:hover, #contactMeButton:hover {
+#loginButton:hover, #registerBtn:hover, #contactMeButton:hover, #mainPageButton:hover {
     background-color: #096ff5;
 }
 
@@ -225,8 +225,15 @@ body, html {
 }
 
 #contactMessage {
-    background-color: #181a1b;
+    /*background-color: #181a1b;*/
+    margin-top: 20%;
     width: 40%;
+    height: 25%;
+    border-color: #1f61b6;
+    border-style: solid;
+    background: #181916;
+    border-radius: 15px;
+    margin-left: 30%;
 }
 
 #writeToMe {
