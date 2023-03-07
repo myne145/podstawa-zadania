@@ -67,3 +67,7 @@ button[type="submit"]:hover {
     background-color: #eee;
     color: #333;
 }
+
+#slider {
+    display: inline-block;
+}
