@@ -2,15 +2,14 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Quiz o Koali</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="koala.png">
 </head>
 <body>
 <header>
-    <h1>Quiz o Koali</h1>
+    <img src="koala.png" id="koala" width="64" height="64">
+    <h1 id="headerTitle">Quiz o Koali</h1>
 </header>
 <main>
     <div class="question">
@@ -66,15 +65,13 @@
     <br>
     <br>
     <div class="question">
-        <h2>7. Jak koale komunikują się ze sobą?</h2>
+        <h2>7. Jak koale komunikują się ze sobą? (wielokrotny wybór)</h2>
         <input type="checkbox" name="q7" value="a">
         a) Poprzez wokalizacje
         <input type="checkbox" name="q7" value="b">
         b) Mową ciała
         <input type="checkbox" name="q7" value="c">
-        c) Przez znakowanie zapachowe
-        <input type="checkbox" name="q7" value="d">
-        d) Wszystkie odpowiedzi są poprawne
+        c) Wszystkie odpowiedzi są poprawne
     </div>
     <div class="question">
         <h2>8. Czy koale piją wodę?</h2>
@@ -122,7 +119,7 @@
             l4.textContent = "4B"
             l5.textContent = "5 - 18-20lat"
             l6.textContent = "6 - Nie"
-            l7.textContent = "7D"
+            l7.textContent = "7 - A,B"
             l8.textContent = "8B"
             l9.textContent = "9 - Tak"
             l10.textContent = "10A"
